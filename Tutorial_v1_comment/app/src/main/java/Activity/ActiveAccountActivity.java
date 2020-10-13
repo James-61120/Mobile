@@ -36,7 +36,7 @@ public class ActiveAccountActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_active_account);
-
+        //htlloooooooooooooo
         userAccount= (UserAccount) getIntent().getSerializableExtra("userAcc");
         setUIReference();
         alertDialog= new SpotsDialog.Builder().setContext(this).build();
