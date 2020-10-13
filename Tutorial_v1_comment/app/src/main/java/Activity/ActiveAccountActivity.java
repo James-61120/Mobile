@@ -44,6 +44,7 @@ public class ActiveAccountActivity extends AppCompatActivity {
         iMyService=retrofitClient.create(IMyService.class);
         mail=userAccount.getMail();
         //Toast.makeText(this, mail, Toast.LENGTH_SHORT).show();
+        //hellooooooooooooooooooooooooooooooooooooooooooooooooo
         Toast.makeText(ActiveAccountActivity.this, "Mã kích hoạt đã được gửi đến mail của bạn", Toast.LENGTH_LONG).show();
         XacNhanBtn.setOnClickListener(new View.OnClickListener() {
             @Override
